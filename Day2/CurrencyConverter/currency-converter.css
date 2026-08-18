@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(229, 229, 184);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(11, 138, 138);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+.currency_lookup {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency_lookup select {
+    padding: 10px;
+}
+
+.currency_lookup input {
+    border: 0;
+    background: transparent;
+    font-size: 25px;
+    text-align: right;
+    color: aliceblue;
+}
+
+.currency_converter {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+select:focus,
+input:focus {
+    outline: 0;
+}
